@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background-color: #0957C3;
+    padding: 25px 0;
+}
+
+header > * {
+    color: white;
+    text-decoration: none;
+    font-family: "Droid Sans", Helvetica, Tahoma, sans-serif;
+    display: inline;
+    font-size: 25px;
+    padding-top: inherit;
+    padding-bottom: inherit;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+header > p {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header > a:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.admin-entry {
+    display: flex;
+    justify-content: space-between;
+}
+
+.delete-button {
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 2px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.delete-button:hover {
+    border: 1px solid black;
+}
+
+.admin-entry p {
+    font-size: 20px;
+    font-family: "Droid Sans", Helvetica, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.submit-button {
+    background-color: white;
+    border: 1px solid transparent;
+    padding: 2px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+.submit-button:hover {
+    border: 1px solid black;
+}
+
+.info-message {
+    width: 100%;
+    background-color: #CCFFCC;
+    padding: 25px 0;
+    font-family: "Droid Sans", Helvetica, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+.error-message {
+    width: 100%;
+    background-color: #FF8080;
+    padding: 25px 0;
+    font-family: "Droid Sans", Helvetica, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+article {
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+.news-form {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.news-form > * {
+    margin: 10px;
+}
+
+.news-form textarea {
+    resize: none;
+}
