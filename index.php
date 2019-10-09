@@ -6,6 +6,7 @@ require('init.php')
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
     <title>Новостной портал</title>
 </head>
 <body>

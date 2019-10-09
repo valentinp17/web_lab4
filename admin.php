@@ -7,6 +7,7 @@ require('init.php')
     <meta charset="UTF-8">
     <title>Админка новостного портала</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
 </head>
 <body>
 <header>
