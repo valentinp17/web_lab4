@@ -5,6 +5,7 @@ require('init.php')
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Новостной портал</title>
 </head>
 <body>
@@ -14,7 +15,12 @@ require('init.php')
 </header>
 <section>
     <?php
-    echo "Сдесь будут статьи\новости";
+    $news_list = $conn->query("SELECT `title`, `text` FROM news ORDER BY `postingTime` DESC")->fetch_all(MYSQLI_ASSOC);
+    foreach ($news_list as $news_item) {
+        $title = nl2br(htmlspecialchars($news_item["title"]));
+        $text = nl2br(htmlspecialchars($news_item["text"]));
+        echo '<article>' . '<h2>' . $title . '</h2>' . '<p class="news-text">' . $text . '</p>' . '</article>';
+    }
     ?>
 </section>
 </body>
