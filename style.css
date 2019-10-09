@@ -11,7 +11,7 @@ header {
 header > * {
     color: white;
     text-decoration: none;
-    font-family: "Lobster", cursive;
+    font-family: "Lobster";
     display: inline;
     font-size: 25px;
     padding-top: inherit;
@@ -48,7 +48,7 @@ header > a:hover {
 
 .admin-entry p {
     font-size: 20px;
-    font-family: "Lobster", cursive;
+    font-family: "Lobster";
     font-weight: bold;
 }
 
@@ -68,7 +68,7 @@ header > a:hover {
     width: 100%;
     background-color: #CCFFCC;
     padding: 25px 0;
-    font-family: "Lobster", cursive;
+    font-family: "Lobster";
     font-size: 25px;
 }
 
@@ -76,7 +76,7 @@ header > a:hover {
     width: 100%;
     background-color: #FF8080;
     padding: 25px 0;
-    font-family: "Lobster", cursive;
+    font-family: "Lobster";
     font-size: 25px;
 }
 
